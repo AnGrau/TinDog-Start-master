@@ -28,12 +28,29 @@ p, li {
 }
 
 /*~~~~~~~~~~ Classes ~~~~~~~~~~*/
+
 .carousel-item {
   padding: 7% 15%;
 }
 
+.copyright{
+  margin-top: 2%;
+}
+
+.conclusion{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+}
+
 .container-fluid {
     padding: 7% 15%;
+}
+
+.icon-foot {
+  margin: 2% 1%;
 }
 
 .inv-dash {
@@ -88,6 +105,17 @@ p, li {
     right: 30%;
 }
 
+@media  (max-width:1045px){
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 .feat-icon {
     color: #ef8172;
     margin-bottom: 1rem;
@@ -102,6 +130,11 @@ p, li {
 }
 /*~~~~~~~~~~ ids ~~~~~~~~~~*/
 
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
 #title {
     background-color: #ff4c68;
     color: #fff;
@@ -111,6 +144,11 @@ p, li {
   background-color: #fff;
   position: relative;
     text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
 }
 
 #press {
